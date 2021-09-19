@@ -6,4 +6,11 @@ function reverseStr(str){
   // return str.split('').reverse().join('');
 }
 
-console.log(reverseStr("hello"));
+function isPalindrome(str){
+  var reverse = reverseStr(str);
+  if(reverse === str){
+    console.log("true");
+  }else{
+    console.log("false");
+  }
+}
